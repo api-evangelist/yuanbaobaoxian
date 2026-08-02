@@ -1,7 +1,29 @@
 aid: yuanbaobaoxian
-name: yuanbaobaoxian
-description: yuanbaobaoxian is a company surfaced as a portfolio company of qiming and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/yuanbaobaoxian.png
+name: Yuanbao (元保)
+description: >-
+  Yuanbao Inc. (元保) is a technology-driven online insurance distribution
+  platform in China, founded in 2019 and listed on NASDAQ under the ticker YB.
+  It distributes medical, critical illness, accident, property, and pet
+  insurance products directly to consumers and provides system services to
+  partnered insurance carriers, embedding proprietary large language models into
+  core functions including risk identification, customer acquisition, product
+  design, personalized recommendation, policy management, and claims processing.
+  Surfaced as a portfolio company of Qiming Venture Partners, Yuanbao operates a
+  consumer-facing web and mobile experience (yuanbaobaoxian.com, redirecting to
+  yuanbaobaoxian.cn) and does not publish a public developer portal, OpenAPI
+  definition, SDKs, or open API platform at this time.
 url: https://raw.githubusercontent.com/api-evangelist/yuanbaobaoxian/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +33,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Insurance
+- Insurtech
+- Online Insurance Distribution
+- China
+- Artificial Intelligence
+- Financial Services
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +49,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/yuanbaobaoxian-domain-security.yml
 - type: Website
   url: https://yuanbaobaoxian.com
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
