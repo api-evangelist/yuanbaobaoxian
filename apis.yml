@@ -52,7 +52,7 @@ tags:
 - Online Insurance Distribution
 - China
 - Artificial Intelligence
-- Financial-Services
+- Financial Services
 tags_raw:
 - Company
 - Insurance
@@ -61,6 +61,7 @@ tags_raw:
 - China
 - Artificial Intelligence
 - Financial Services
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
